@@ -31,9 +31,10 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-array-sugar@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/array-sugar/-/array-sugar-1.0.0.tgz#97728a6ee7732791912d22558d84a67a8afba6f5"
+array-sugar@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/array-sugar/-/array-sugar-1.2.2.tgz#fb9795228e3b4841a106d8552f2cf6dadd534a0a"
+  integrity sha1-+5eVIo47SEGhBthVLyz22t1TSgo=
 
 asn1@0.1.11:
   version "0.1.11"

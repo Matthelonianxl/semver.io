@@ -4,7 +4,7 @@
   "description": "a plaintext webservice that resolves semver ranges",
   "main": "index.js",
   "dependencies": {
-    "array-sugar": "1.0.0",
+    "array-sugar": "1.2.2",
     "body-parser": "1.9.2",
     "coffee-script": "1.8.0",
     "cors": "2.5.2",
