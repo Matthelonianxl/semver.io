@@ -16,7 +16,8 @@
     "npm-stats": "1.2.0",
     "pygmentize-bundled": "2.3.0",
     "semver": "5.0.1",
-    "superagent": "1.3.0"
+    "superagent": "1.3.0",
+    "@snyk/protect": "latest"
   },
   "engines": {
     "node": "6.11.1"
@@ -31,7 +32,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "NODE_ENV=test mocha -b --compilers coffee:coffee-script/register --reporter spec --ui tdd $(find test -name '*.test.coffee')"
+    "test": "NODE_ENV=test mocha -b --compilers coffee:coffee-script/register --reporter spec --ui tdd $(find test -name '*.test.coffee')",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "semver",
@@ -41,5 +44,6 @@
     "versions",
     "engine"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
